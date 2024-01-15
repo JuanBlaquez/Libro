@@ -18,7 +18,7 @@ la -la
 
 Ejercicio 3
 -----------
-cat > indice.txt
+echo >>indice.txt
 git status
 git add indice.txt
 git status
@@ -33,7 +33,7 @@ git status
 
 Ejercicio 5
 -----------
-cat > indice.txt
+echo capitulo 3 >>indice.txt
 git diff
 git add indice.txt
 git commit -m "Añadido capitulo 3 sobre gestion de ramas."
